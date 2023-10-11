@@ -1,5 +1,4 @@
 // Your code here
-// Your code here
 
 let animals = [];
 
@@ -58,5 +57,4 @@ votesForm.addEventListener("submit",function (e) {
    animal.votes= votes + animal.votes;
    displayAnimal(selectedAnimal)
 });
-
 
