@@ -6,7 +6,7 @@ let selectedAnimals = null;
 
 fetchAnimals();
 function fetchAnimals(){ 
- fetch("http://localhost:3000/characters",{
+ fetch("http://localhost:3000/characters",{ 
     method: "GET",
   })
     .then((response) => response.json())
